@@ -17,5 +17,48 @@ Go to the browser to this url: http://localhost:3000 or if you want to open it i
 # Features 
 
 # File Structure
+- The KanDash app was created using create-react-app. 
+```md
+> npx create-react-app KanDash
+```
+- KanDash/ (Main folder name and also the name of the application)
+  - node_modules/ (contains all installed dependencies & its specific versions)
+  - public/ (contains index.html file where React will render its HTML elements in the ID, 'root' tag. It also contains favicons and logo img files)
+  - screenshots/ (contains img files of the functioning app)
+  - .env (file contains constant values)
+  - .eslintrc.js (a static code analysis tool file)
+  - craco.config.js (configuration layer that provides API docs and plugins)
+  - package-lock.json & package.json (files contain info on required packages and their versions to run the app)
+  - tailwind.config.json (framework that helps design an element)
+  - src/ (contains components and layouts that will be rendered into index.html)
+    - index.js & index.css (main file that will be executed and it's corresponding css)
+    - App.js & App.css (called by index.js, contains the layout of the dasboard and it is used for page routing)
+    - contexts/ContextProvider.js (through useContext, allows all child components to access parents' props)
+    - data/ (contains sample images used and dummy.js - which acts like api doc that stores customer, employee, and product info)
+    - pages/ (contains pages implemented for the dashboard using syncfusion for UI components)
+      - Ecommerce.jsx (home page, displays cards oof other pages)
+      - Orders.jsx (pagination functionality)
+      - Employees.jsx (search functionality)
+      - Customers.jsx (editable table functionality)
+      - ColorPicker.jsx (palette functionality)
+      - Calendar.jsx (edit, add, drag events functionality)
+      - Kanban.jsx (organize tasks/to-dos like JIRA w/ drag functionality)
+      - Editor.jsx (type text w/ bold, italicize, underline features)
+      - Charts/Area.jsx, Bar.jsx, ColorMapping.jsx, Financial.jsx, Line.jsx, Pie.jsx, Pyramid.jsx, Stacked.jsx (page for each type of graph to display info/data)
+    - components/ (contains functionality of elements using React)
+      - index.jsx (contains export statements)
+      - Button.jsx (button shadow effect when hovered over)
+      - Cart.jsx (when clicked on shopping cart, right-side panel opens to display products selected to buy)
+      - ChartsHeader.jsx (displays title for each chart page)
+      - Chat.jsx (when clicked on messenger icon, small dialogue box pops open to briefly display messages)
+      - Footer.jsx (displays copyright info)
+      - Header.jsx (displays page titles)
+      - Navbar.jsx (navigation bar contains shopping cart, messages, notifactions, userprofile, logo)
+      - Notification.jsx (when clicked on notification icon, small dialogue box pops open to briefly display notifications)
+      - Sidebar.jsx (collapsible functionality)
+      - ThemeSettings.jsx (allows user to select color theme as well as switch between dark & light mode)
+      - UserProfile.jsx (when clicked on user icon, small pop-up displays user info)
+      - Charts/LineChart.jsx, Pie.jsx, SparkLine.jsx, Stacked.jsx (contains react functionality for some graphs)
 
+        
 # Concepts Learned
