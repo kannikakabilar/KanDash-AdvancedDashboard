@@ -12,9 +12,12 @@ An advanced admin dashboard built using React. Completely responsive and mobile 
 ```md
 > lsof -ti:3000 | xargs kill -9
 ```
-Go to the browser to this url: http://localhost:3000 or if you want to open it in a different device go to http://<ipaddress-where-program-is-running>:3000 and explore through the KanDash Advanced Dashboard React App.
+Go to the browser to this url: http://localhost:3000 or if you want to open it in a different device go to: <br /> http://[ipaddress-where-program-is-running]:3000 <br />
+and explore through the KanDash Advanced Dashboard React App.
 
 # Features 
+
+# Concepts Learned
 
 # File Structure
 - The KanDash app was created using create-react-app. 
@@ -61,4 +64,4 @@ Go to the browser to this url: http://localhost:3000 or if you want to open it i
       - Charts/LineChart.jsx, Pie.jsx, SparkLine.jsx, Stacked.jsx (contains react functionality for some graphs)
 
         
-# Concepts Learned
+
