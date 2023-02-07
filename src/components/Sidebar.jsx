@@ -38,7 +38,7 @@ const Sidebar = () => {
               </button>
             </TooltipComponent>
           </div>
-          // Loops through elements from the link object stored in dummy.js (ie: Pages: Orders, Employees, Customers ...)
+          {/* Loops through elements from the link object stored in dummy.js (ie: Pages: Orders, Employees, Customers ...) */}
           <div className="mt-10 ">
             {links.map((item) => (
               <div key={item.title}>
