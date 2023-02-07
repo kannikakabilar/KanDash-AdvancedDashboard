@@ -39,7 +39,7 @@ and explore through the KanDash Advanced Dashboard React App.
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163800.png" width="45%">
 </p><br />
 
-- Oorders page is implemented with pagination
+- Orders page is implemented with pagination
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163554.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
