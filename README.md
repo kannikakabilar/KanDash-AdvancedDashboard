@@ -101,9 +101,9 @@ and explore through the KanDash Advanced Dashboard React App.
 
 - The entire dashboard is also mobile friendly and adjusts its elements as the window is resized
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163203.png" width="45%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-07 145209.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163229.png" width="45%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-07 145327.png" width="45%">
 </p><br />
 
 # Concepts Learned
