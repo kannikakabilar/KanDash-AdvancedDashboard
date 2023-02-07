@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
+
+// importing icons that will be used in the navbar
 import { AiOutlineMenu } from 'react-icons/ai';
 import { FiShoppingCart } from 'react-icons/fi';
 import { BsChatLeft } from 'react-icons/bs';
 import { RiNotification3Line } from 'react-icons/ri';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import avatar from '../data/avatar.jpg';
@@ -48,6 +51,7 @@ const Navbar = () => {
     }
   }, [screenSize]);
 
+  // function used to toggle the sidebar menu when clicked on the hamburger icon
   const handleActiveMenu = () => setActiveMenu(!activeMenu);
 
   return (
@@ -56,8 +60,8 @@ const Navbar = () => {
       <NavButton title="Menu" customFunc={handleActiveMenu} color={currentColor} icon={<AiOutlineMenu />} />
       <div className="flex">
         <NavButton title="Cart" customFunc={() => handleClick('cart')} color={currentColor} icon={<FiShoppingCart />} />
-        <NavButton title="Chat" dotColor="#03C9D7" customFunc={() => handleClick('chat')} color={currentColor} icon={<BsChatLeft />} />
-        <NavButton title="Notification" dotColor="rgb(254, 201, 15)" customFunc={() => handleClick('notification')} color={currentColor} icon={<RiNotification3Line />} />
+        <NavButton title="Chat" dotColor="#FF0000" customFunc={() => handleClick('chat')} color={currentColor} icon={<BsChatLeft />} />
+        <NavButton title="Notification" dotColor="rgb(254, 0, 0)" customFunc={() => handleClick('notification')} color={currentColor} icon={<RiNotification3Line />} />
         <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
