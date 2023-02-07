@@ -2,18 +2,19 @@
 An advanced admin dashboard built using React. Completely responsive and mobile friendly. It utilizes React Hooks &amp; components, and Syncfusion for UI components.
 ![Quote](https://github.com/kannikakabilar/KanDash-AdvancedDashboard/blob/main/screenshots/Screenshot%202023-02-06%20161647.png)
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 161727.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 161727.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 161857.png" width="30%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 161915.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 161857.png" width="45%">
 </p>
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162052.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 161915.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162112.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162052.png" width="45%">
+</p>
+<p align="center">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162112.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162139.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162139.png" width="45%">
 </p>
 
 # How to run
@@ -38,13 +39,18 @@ and explore through the KanDash Advanced Dashboard React App.
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163800.png" width="45%">
 </p><br />
 
-- Users can view their orders through pagination and they can also view their selected items in their shopping cart
+- Users can view their orders through pagination
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163554.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163554.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163615.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163615.png" width="45%">
+</p><br />
+
+- Selected items in their shopping cart can be viewed through the cart icon and the color picker app enables to choose a color from a palette
+<p align="center">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163652.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163652.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162715.png" width="45%">
 </p><br />
 
 - Users can view their list of employees with search functionality and view the list of customers with editable table functionality
@@ -61,36 +67,36 @@ and explore through the KanDash Advanced Dashboard React App.
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162358.png" width="45%">
 </p><br />
 
-- Users can organize their tasks in the Kanban app, edit text pieces in the Text Editor app, and choose a color with a color palette app.
+- Users can organize their tasks in the Kanban app, and edit text pieces in the Text Editor app
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162511.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162511.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162622.png" width="30%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162715.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162622.png" width="45%">
 </p><br />
 
 - Users can view their data through the following graphs: Line, Area, Bar, Pie, Finacial, Color Mapping, Pyramid, Stacked
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162803.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162803.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162837.png" width="30%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162916.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162837.png" width="45%">
 </p>
 
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163005.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 162916.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 163048.png" width="30%">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 163005.png" width="45%">
+</p><br />
+
+<p align="center">
+  <img alt="Dark" src="screenshots/Screenshot 2023-02-06 163048.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163120.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163120.png" width="45%">
 </p>
 
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163203.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163203.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163229.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163229.png" width="45%">
 </p><br />
 
 - The entire dashboard is also mobile friendly and adjusts its elements as the window is resized
