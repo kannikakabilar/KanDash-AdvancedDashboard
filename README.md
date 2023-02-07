@@ -39,42 +39,42 @@ and explore through the KanDash Advanced Dashboard React App.
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163800.png" width="45%">
 </p><br />
 
-- Users can view their orders through pagination
+- Oorders page is implemented with pagination
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163554.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163615.png" width="45%">
 </p><br />
 
-- Selected items in their shopping cart can be viewed through the cart icon and the color picker app enables to choose a color from a palette
+- Selected items to purchase can be viewed through the shopping cart icon and the color picker app enables to choose a color from a palette
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163652.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162715.png" width="45%">
 </p><br />
 
-- Users can view their list of employees with search functionality and view the list of customers with editable table functionality
+- List of employees page implemented with search functionality and the list of customers page comes with editable table functionality
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163407.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 163317.png" width="45%">
 </p><br />
 
-- Users can edit, add, and drag events in their calendar app as well change the view by daily/weekly/monthly/agenda(list)
+- Edit, add, and drag events in the calendar app and the view can be changed by day/week/month/agenda(list)
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162335.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162358.png" width="45%">
 </p><br />
 
-- Users can organize their tasks in the Kanban app, and edit text pieces in the Text Editor app
+- Organize tasks in the Kanban app, and edit text pieces in the Text Editor app
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162511.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="screenshots/Screenshot 2023-02-06 162622.png" width="45%">
 </p><br />
 
-- Users can view their data through the following graphs: Line, Area, Bar, Pie, Finacial, Color Mapping, Pyramid, Stacked
+- Data can be viewed through the following graphs: Line, Area, Bar, Pie, Finacial, Color Mapping, Pyramid, Stacked
 <p align="center">
   <img alt="Light" src="screenshots/Screenshot 2023-02-06 162803.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -101,9 +101,9 @@ and explore through the KanDash Advanced Dashboard React App.
 
 - The entire dashboard is also mobile friendly and adjusts its elements as the window is resized
 <p align="center">
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163203.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163203.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163229.png" width="30%">
+  <img alt="Light" src="screenshots/Screenshot 2023-02-06 163229.png" width="45%">
 </p><br />
 
 # Concepts Learned
