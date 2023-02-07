@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-// Context Provider allows all child components to have access to it's parent's props
+
 
 const StateContext = createContext();
 
@@ -10,6 +10,8 @@ const initialState = {
   userProfile: false,
   notification: false,
 };
+
+// Context Provider allows all child components (the entire application) to have access to the mentioned props and a function to change its value
 
 export const ContextProvider = ({ children }) => {
   const [screenSize, setScreenSize] = useState(undefined);
@@ -39,4 +41,5 @@ export const ContextProvider = ({ children }) => {
   );
 };
 
+// useStateContext return the current value of the specified prop and the function to change its value - so that any page of this app has access 
 export const useStateContext = () => useContext(StateContext);
