@@ -1,22 +1,23 @@
-# Use an existing Python image as a base
-FROM python:3
+# Use a base image with Node.js installed
+FROM node:14-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the rest of the application code into the container at /app
+# Copy package.json and package-lock.json into the container
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install --legacy-peer-deps
+
+# Copy the rest of the application code into the container
 COPY . .
 
-# Run any commands needed to set up the application
-RUN source bin/activate
-RUN python3 -m venv myvirenv
-RUN source myvirenv/bin/activate
-RUN python3 -m pip install Django
-RUN python3 manage.py makemigrations members
-RUN python3 manage.py migrate
+# Build the React application
+#RUN npm run build
 
-# Expose the port that Django runs on
-EXPOSE 8000
+# Expose the port on which the React application will run
+EXPOSE 3000
 
-# Command to run the application
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+# Command to start the React application
+CMD ["npm", "start"]
